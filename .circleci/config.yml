@@ -1,10 +1,7 @@
 version: 2 # use CircleCI 2.0
 jobs:
-  build:
-    machine:
-      image: ubuntu-1604:201903-01
-    steps:
-      - run: 
-        name: Test
-        command: |
-          echo Hello world!
+    build:
+        machine:
+            image: ubuntu-1604:201903-01
+        steps:
+            - run: echo Hello world!
