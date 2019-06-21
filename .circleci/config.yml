@@ -4,4 +4,5 @@ jobs:
         machine:
             image: ubuntu-1604:201903-01
         steps:
-            - run: echo Hello world!
+            - run: sleep 10
+            - run: echo Hello!
